@@ -2,7 +2,7 @@
 
 // First, we organize our information into an array.
 $people = array(
-  /*
+
   'George' => array(
     'birthyear' => 1972,
     'fav_band' => 'The Cure',
@@ -18,7 +18,7 @@ $people = array(
     'fav_band' => 'Beach Boys',
     'shoe_size' => 10,
   ),
-  */
+
 );
 
 // Initialize our $output variable to prevent any errors.
