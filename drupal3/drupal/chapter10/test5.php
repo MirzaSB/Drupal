@@ -297,12 +297,10 @@ function verifyUsernameExists($username) {
         //Get the row count of the data returned.
         if($sql_findUsername->rowCount() > 0) {
             //If the row count is more than 0, that means that the user exists in the database.
-            //return "Sorry, the username, '" . $username . "' is already in use. Please choose another username.";
             return true;
         }
         else {
             //If the row count is 0, then that user does not exist in the database.
-            //return "The username, '" . $username . "' is available.";
             return false;
         }
     }
