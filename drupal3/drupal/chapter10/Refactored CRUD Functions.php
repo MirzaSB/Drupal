@@ -2,15 +2,18 @@
 
 include('database.php');
 
-$username = "testuser1";
+$username = "testcustom2";
 
 //Run the function
 //echo selectQueryDisplayAllRows();
 //echo verifyUsernameExists($username);
-//echo updateUserData($username, "pa55word", "test", "1990", "Unknown band", "8");
-//echo deleteUser($username);
+//echo updateUserData($username, "pa55word", "George", "1990", "The Beatles", "9");
+echo deleteUser($username);
 //print_r (getUsernameRowData($username));
 //echo insertRowInPeopleTable("tfirstname2", "1990", "band", "10", "testcustom2", "pa55word");
+//echo insertRowInPeopleTable("George", "1990", "band", "10", "homestar", "pa55word");
+//echo insertRowInPeopleTable("Sally", "1980", "band", "7", "uniquestar", "pa55word");
+//echo insertRowInPeopleTable("admin", "1980", "band", "10", "admin", "pa55word");
 
 //Function to insert a row in the "people" table.
 function insertRowInPeopleTable($first_name, $birth_year, $favorite_band, $shoe_size, $username, $password) {
@@ -93,6 +96,8 @@ function updateUserData($username, $password, $first_name, $birth_year, $fav_ban
     $sql_updateQuery = "UPDATE people
                         SET name = ?, birth_year = ?, favorite_band = ?, shoe_size = ?, password = ?
                         WHERE username = ?";
+
+    //return $pdo->query($sql_updateQuery)->execute();
 
     //Prepare the SQL statement to be executed.
     $sql_update = $pdo->prepare($sql_updateQuery);
@@ -193,6 +198,8 @@ function getUsernameRowData($username) {
 
     //SELECT QUERY.
     $sql_getRowFromUsernameQuery = "SELECT * FROM people WHERE username = '" . $username . "'";
+    //return $pdo->query($sql_getRowFromUsernameQuery)->fetch(PDO::FETCH_ASSOC);
+
     //Prepare the SQL statement to be executed.
     $sql_getRowFromUsername = $pdo->prepare($sql_getRowFromUsernameQuery);
     try {
@@ -203,6 +210,7 @@ function getUsernameRowData($username) {
     catch (PDOException $e) {
         print $e->getMessage();
     }
+
 }
 
 ?>
