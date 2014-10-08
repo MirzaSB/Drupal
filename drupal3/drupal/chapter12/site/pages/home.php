@@ -19,8 +19,13 @@ $content = <<<EOD
     purchasing, to see a full product list, or to contact
     us.</p>
   <ul>
+    <!--
     <li><a href="products.html">Learn more about our incredible products</a></li>
     <li><a href="about.html">About us and what we do</a></li>
     <li><a href="contact.html">Contact us for more information</a></li>
+    //-->
+    <li><a href="products.php">Learn more about our incredible products</a></li>
+    <li><a href="about.php">About us and what we do</a></li>
+    <li><a href="contact.php">Contact us for more information</a></li>
   </ul>
 EOD;
