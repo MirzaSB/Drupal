@@ -11,5 +11,3 @@ $settings['db_server'] = 'localhost';
 $settings['db_database'] = 'amazing_inc';
 
 $settings['base_path'] = '/drupal3/drupal/chapter12/site/';
-
-?>

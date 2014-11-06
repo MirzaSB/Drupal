@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ea63804-f0d2-4dab-936c-013225e30276" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/founder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/product-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/product-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/product-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/product-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/product-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/product-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/sandalwood.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/sticks.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/images/use-card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/steps/01.crud.php.general-functions.step" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/steps/02.admin.products.php.switch-to-crud-functions.step" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/steps/03.admin.users.php.switch-to-crud-functions.step" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/about.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/styles/admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/crud.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/includes/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/includes/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/home-old.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/includes/page-template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/data/product-data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/products.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/admin/products.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/settings/settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/styles/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/admin/users.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/data/product-data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/Archive/products.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/steps/01.crud.php.general-functions.step" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/steps/02.admin.products.php.switch-to-crud-functions.step" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/steps/03.admin.users.php.switch-to-crud-functions.step" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drupal3/drupal/test7.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/about.php" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/about-old.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/home.php" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/functions.php" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/index.php" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/login.php" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/products.php" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/products.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/settings/settings.php" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/settings/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/users.php" afterPath="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/users.php" />
+    </list>
+    <ignored path="htdocs.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="htdocs" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter9/test.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter9/database.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter9/test2.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter10/database.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter10/test.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter10/Database Dump/my_database.sql" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter10/test2.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter10/test3.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter10/test4.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter10/sandbox.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter10/test5.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter11/site/includes/footer.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter11/site/data/product_data.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter11/site/includes/header.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter11/site/products.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/database.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter10/Refactored CRUD Functions.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/products.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/users.php" />
+        <option value="db-console:/d7f23c82/86524d28-edec-4c12-90ba-9b98c18b197a/" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/page-template.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/pages.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/settings/settings.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/functions.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/login.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/crud.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/index.php" />
+        <option value="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/home.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1161" />
+    <option name="y" value="22" />
+    <option name="width" value="1399" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site7_withPDO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site7_withPDO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site7_withPDO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="/usr/bin/git" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/drupal3/drupal/chapter12/site/images" />
+      <recent name="$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes" />
+      <recent name="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin" />
+      <recent name="$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/Archive" />
+      <recent name="$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/drupal3/drupal/chapter10/Archive" />
+      <recent name="$PROJECT_DIR$/drupal3/drupal/chapter10/Database Dump" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.Refactored CRUD Functions.php">
+    <configuration default="false" name="test2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/drupal3/drupal/chapter9/test2.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="database.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/drupal3/drupal/chapter10/database.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test2.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/drupal3/drupal/chapter10/test2.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sandbox.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/drupal3/drupal/chapter10/sandbox.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Refactored CRUD Functions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/drupal3/drupal/chapter10/Refactored CRUD Functions.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.test2.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.database.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.test2.php (1)" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.sandbox.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.Refactored CRUD Functions.php" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.Refactored CRUD Functions.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.sandbox.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.test2.php (1)" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.database.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.test2.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ea63804-f0d2-4dab-936c-013225e30276" name="Default" comment="" />
+      <created>1410306410633</created>
+      <updated>1410306410633</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1161" y="22" width="1399" height="1058" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19942816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32600734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter11/site/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="168" selection-end="168" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter11/site/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="981" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter11/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="981" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter11/site/data/product-data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="2" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter11/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="418" selection-end="418" vertical-scroll-proportion="0.25773194" vertical-offset="0" max-vertical-offset="582" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter11/site/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="372" selection-end="372" vertical-scroll-proportion="0.33505154" vertical-offset="0" max-vertical-offset="582" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter11/site/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="1" selection-start="948" selection-end="948" vertical-scroll-proportion="0.58419245" vertical-offset="170" max-vertical-offset="1140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter10/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.38659793" vertical-offset="0" max-vertical-offset="582" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter9/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="2" selection-start="658" selection-end="658" vertical-scroll-proportion="0.6443299" vertical-offset="0" max-vertical-offset="582" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter9/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="133" selection-end="133" vertical-scroll-proportion="0.20618556" vertical-offset="0" max-vertical-offset="582" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter10/test5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="0" selection-start="5593" selection-end="5680" vertical-scroll-proportion="4.4815464" vertical-offset="0" max-vertical-offset="5220" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_with_PDO/pages/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="373" selection-end="1320" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_with_PDO/data/product-data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_with_PDO/includes/page-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_with_PDO/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_with_PDO/pages/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="778" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_with_PDO/pages/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="778" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_with_PDO/pages/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/styles/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_with_PDO/pages/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter10/Refactored CRUD Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="3315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/images/sticks.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/images/use-card.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/images/product-6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="32" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="3540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_with_PDO/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="31" vertical-scroll-proportion="0.05154639" vertical-offset="0" max-vertical-offset="1410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="39" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.8505155" vertical-offset="0" max-vertical-offset="1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/data/product-data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/d7f23c82/86524d28-edec-4c12-90ba-9b98c18b197a/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site_backup/site/pages/admin/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="37" selection-start="5215" selection-end="5215" vertical-scroll-proportion="0.5361111" vertical-offset="2252" max-vertical-offset="3585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site7_withPDO/settings/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="334" vertical-scroll-proportion="0.030927835" vertical-offset="0" max-vertical-offset="970" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site7_withPDO/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="148" selection-end="236" vertical-scroll-proportion="-1.628866" vertical-offset="1038" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site7_withPDO/pages/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="311" selection-end="311" vertical-scroll-proportion="0.24698134" vertical-offset="0" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site7_withPDO/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="37" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.85620195" vertical-offset="0" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="24" selection-end="24" vertical-scroll-proportion="0.016465422" vertical-offset="0" max-vertical-offset="911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="530" selection-end="530" vertical-scroll-proportion="0.39517015" vertical-offset="0" max-vertical-offset="911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/settings/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="2" selection-start="338" selection-end="338" vertical-scroll-proportion="0.23051591" vertical-offset="0" max-vertical-offset="911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="9" selection-start="2480" selection-end="2480" vertical-scroll-proportion="1.5312843" vertical-offset="0" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/page-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="2" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.5927552" vertical-offset="0" max-vertical-offset="911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site7_withPDO/includes/crud.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="230" column="0" selection-start="8488" selection-end="8826" vertical-scroll-proportion="-110.0" vertical-offset="810" max-vertical-offset="4200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/about-old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="46" selection-end="1426" vertical-scroll-proportion="0.066815145" vertical-offset="0" max-vertical-offset="898">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/admin/pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="25" selection-start="619" selection-end="619" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/pages/home-old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="957" selection-end="957" vertical-scroll-proportion="0.34577388" vertical-offset="0" max-vertical-offset="911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="88" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.80241495" vertical-offset="769" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drupal3/drupal/chapter12/site/includes/crud.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="13" selection-start="8865" selection-end="8865" vertical-scroll-proportion="4.0423164" vertical-offset="0" max-vertical-offset="4590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
