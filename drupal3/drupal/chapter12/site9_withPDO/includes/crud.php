@@ -12,7 +12,7 @@ include('database.php');
  *  - 'add_edit_columns' - A set of key / value pairs. The key is the column name, and the value is an
  *     array that can contain 'title', 'prefix' and 'validate' (an array)
  */
-function data_list($options){
+function data_list($options) {
 
     //Set $pdo as global so that the database project can be used here.
     global $pdo;
@@ -38,7 +38,7 @@ function data_list($options){
                 $table_header = '<tr>' . $table_header . '<th>Edit</th><th>Delete</th></tr>';
             }
             $table_row = '';
-            foreach ($options['display_columns'] as $col_name => $col_title) {
+            foreach($options['display_columns'] as $col_name => $col_title) {
                 $table_row .= '<td>' . $row[$col_name] . '</td>';
             }
             $table_row .= '
@@ -52,7 +52,8 @@ function data_list($options){
     <table>' . $table_header . $table_rows . '</table>';
 
         return $output;
-    } catch (PDOException $e) {
+    }
+    catch (PDOException $e) {
         print $e->getMessage();
     }
 
@@ -61,7 +62,7 @@ function data_list($options){
 
 //Display an 'add' or 'edit' form, depending on what is passed to the function.
 //See $options comments from data_list();
-function data_add_edit_form($id, $options){
+function data_add_edit_form($id, $options) {
 
     //Set $pdo as global so that the database project can be used here.
     global $pdo;
@@ -69,64 +70,58 @@ function data_add_edit_form($id, $options){
     $form_id = 'admin_add_edit_' . $options['table'];
     if (isset($_POST['form_id']) && $_POST['form_id'] == $form_id) {
         $values = $_POST;
-        //If the edit form is being loaded for the first time.
-    } elseif ($id != '') {
+    //If the edit form is being loaded for the first time.
+    }
+    elseif ($id != '') {
         $sql = "SELECT * FROM " . $options['table'] . " WHERE " . $options['id_column'] . " = '" . $id . "'";
         $values = $pdo->query($sql)->fetch(PDO::FETCH_ASSOC);
         //If this is an add form, set the values to empty.
-    } else {
+    }
+    else {
         //Add unique ID to empty values.
         $values[$options['id_column']] = '';
         foreach ($options['add_edit_columns'] as $column_name => $column_options) {
             $values[$column_name] = '';
         }
     }
-
+  
     $submit_text = 'Add item';
     $action = 'add_item';
     $title = 'Add ' . $options['item_name'];
-
+  
     if ($id != '') {
         $title = 'Edit ' . $options['item_name'];
         $submit_text = 'Save changes';
         $action = 'edit_item';
     }
-
+  
     $form_inputs = '';
     foreach ($options['add_edit_columns'] as $column_name => $column_options) {
         //Set the default to a text field.
         if (!isset($column_options['type'])) {
             $column_options['type'] = 'text';
         }
+    
+    $input_id = 'input_'. $options['table'] . '_' . $column_name;
 
-        $input_id = 'input_' . $options['table'] . '_' . $column_name;
+    //Render the input.
+    switch ($column_options['type']) {
 
-        //Render the input.
-        switch ($column_options['type']) {
-            case 'text':
-                $input_rendered = '<input type="text" id="' . $input_id . '" name="' . $column_name . '" value="' . $values[$column_name] . '" />';
-                break;
+      case 'text':
+        $input_rendered = '<input type="text" id="' . $input_id . '" name="' . $column_name . '" value="' . $values[$column_name] . '" />';
+        break;
 
-            case 'textarea':
-                $input_rendered = '<textarea id="' . $input_id . '" name="' . $column_name . '">' . htmlentities($values[$column_name]) . '</textarea>';
-                break;
+      case 'textarea':
+        $input_rendered = '<textarea id="' . $input_id . '" name="' . $column_name . '">' . htmlentities($values[$column_name]) . '</textarea>';
+        break;
 
-            case 'checkbox':
-                /*
-                if($values[$column_name] == 1) {
-                    $input_rendered = '<input type="checkbox" id="' . $input_id . '" name="' . $column_name . '" checked="checked"/>';
-                }
-                else {
-                    $input_rendered = '<input type="checkbox" id="' . $input_id . '" name="' . $column_name . '" value="' . $values[$column_name] . '" />';
-                }*/
-                $input_rendered = '<input type="checkbox" id="' . $input_id . '" name="' . $column_name . '" value="1"' . ($values[$column_name] == 1 ? 'checked="checked"' : '') . ' />';
-                break;
-        }
-
-        $form_inputs .= '<p>' . $column_options['title'] . ': ' . (isset($column_options['prefix']) ? $column_options['prefix'] : '') . $input_rendered . '</p>';
     }
-
-    return '
+    
+    $form_inputs  .= '<p>' . $column_options['title'] . ': ' . (isset($column_options['prefix']) ? $column_options['prefix'] : '') . $input_rendered . '</p>';
+        print "test--" . $input_rendered . "---test2";
+  }
+  
+  return '
     <h1>' . $title . '</h1>
     <form action="' . url($options['path']) . '" method="post">
       ' . $form_inputs . '
@@ -140,74 +135,69 @@ function data_add_edit_form($id, $options){
 
 //Perform validation on each input.
 //See $options comments from data_list();
-function data_add_edit_form_validate($options, $values)
-{
-
-    $errors = array();
-
-    foreach ($options['add_edit_columns'] as $column_name => $column_options) {
-
-        foreach ($column_options['validate'] as $type) {
-
-            switch ($type) {
-
-                //Required value.
-                case 'required':
-                    if (trim($values[$column_name]) == '') {
-                        $errors[] = 'Please enter a value for ' . $column_name . '.';
-                    }
-                    break;
-
-                //Is a number
-                case 'numeric':
-                    if (trim($values[$column_name]) != '') {
-                        if (!is_numeric($values[$column_name])) {
-                            $errors[] = 'Please enter only numbers for ' . $column_name . '.';
-                        }
-                    }
-                    break;
-
-                //Contains just letters and numbers
-                case 'alphanumeric':
-                    if (trim($values[$column_name]) != '') {
-                        if (!ctype_alnum($values[$column_name])) {
-                            $errors[] = 'Please enter only letters or numbers for ' . $column_name . '.';
-                        }
-                    }
-                    break;
-
-                //Contains only 1 and 0.
-                case 'checkbox':
-                    if (trim($values[$column_name]) != '') {
-                        if (!is_numeric($values[$column_name])) {
-                            if(($values[$column_name] != 0) || ($values[$column_name] != 1)) {
-                                $errors[] = 'Please enter only numbers for ' . $column_name . '.';
-                            }
-                        }
-                    }
-                    break;
-
+function data_add_edit_form_validate($options, $values) {
+  
+  $errors = array();
+  
+  foreach ($options['add_edit_columns'] as $column_name => $column_options) {
+    foreach ($column_options['validate'] as $type) {
+      
+      switch ($type) {
+      
+        //Required value.
+        case 'required':
+          if (trim($values[$column_name]) == '') {
+            $errors[] = 'Please enter a value for ' . $column_name . '.';
+          }
+          break;
+        
+        //Is a number
+        case 'numeric':
+          if (trim($values[$column_name]) != '') {
+            if (!is_numeric($values[$column_name])) {
+              $errors[] = 'Please enter only numbers for '. $column_name . '.';
             }
-        }
-    }
+          }
+          break;
 
-    return $errors;
+        //Is a number
+        case 'checkbox':
+            if (trim($values[$column_name]) != '') {
+                if((trim($values[$column_name]) != "checked") || (trim($values[$column_name]) != "unchecked") ){
+                    $errors[] = 'Please enter a correct value for ' . $column_name . '. The allowed values are "checked" and "unchecked".';
+                }
+            }
+            break;
+        
+        //Contains just letters and numbers
+        case 'alphanumeric':
+            if (trim($values[$column_name]) != '') {
+                if (!ctype_alnum($values[$column_name])) {
+                    $errors[] = 'Please enter only letters or numbers for '. $column_name . '.';
+                }
+            }
+            break;
+
+      }
+    }
+  }
+  
+  return $errors;
 }
 
 
 //Process the add / edit form submission.
 //See $options comments from data_list();
-function data_add_edit_form_process($values, $options)
-{
+function data_add_edit_form_process($values, $options) {
 
     //Set $pdo as global so that the database project can be used here.
     global $pdo;
-
+  
     //Since we're using 'id' for the unique id input, set the actual unique id column value.
     $values[$options['id_column']] = $values['id'];
-
+  
     $errors = data_add_edit_form_validate($options, $values);
-
+  
     //If there's any errors, add a notice
     if (count($errors) > 0) {
         notice(array_to_list($errors));
@@ -220,6 +210,7 @@ function data_add_edit_form_process($values, $options)
             $clean_columns[] = $column_name;
         }
         foreach ($clean_columns as $column) {
+            //$clean_values[$column] = trim(mysql_real_escape_string($values[$column]));
             $clean_values[$column] = trim($values[$column]);
         }
 
@@ -239,7 +230,7 @@ function data_add_edit_form_process($values, $options)
         //Do an update if we're editing.
         else {
             foreach ($update_columns as $column) {
-                $update_query_array[] = " " . $column . " = '" . $clean_values[$column] . "' ";
+                $update_query_array[] = " " . $column  . " = '" . $clean_values[$column] . "' ";
             }
             $update_query = implode(',', $update_query_array);
             $sql = "
@@ -257,11 +248,13 @@ function data_add_edit_form_process($values, $options)
             //$result will return TRUE if it worked. Otherwise, we should show an error to troubleshoot.
             if ($result) {
                 notice(($clean_values[$options['id_column']] == '') ? 'The ' . $options['item_name'] . ' was added.' : 'The ' . $options['item_name'] . ' was updated');
-            } else {
+            }
+            else {
                 //If something happened, let's show an error.
                 notice(mysql_error());
             }
-        } catch (PDOException $e) {
+        }
+        catch (PDOException $e) {
             print $e->getMessage();
         }
 
@@ -273,8 +266,7 @@ function data_add_edit_form_process($values, $options)
 
 
 //Delete an item.
-function data_delete($options, $id)
-{
+function data_delete($options, $id) {
     //Set $pdo as global so that the database project can be used here.
     global $pdo;
     //See $options comments from data_list();
@@ -285,38 +277,37 @@ function data_delete($options, $id)
 
 //Render an administrative page and handle CRUD logic.
 //See $options comments from data_list();
-function data_administration_page($options)
-{
-
-    //Used to create links in the other functions.
-    $options['path'] = $_GET['path'];
-
-    $content = '';
-
-    if (isset($_REQUEST['action'])) {
-
-        switch ($_REQUEST['action']) {
-
-            case 'delete':
-                data_delete($options, $_GET['id']);
-                break;
-
-            case 'edit_form':
-            case 'add_form':
-                $content .= data_add_edit_form((isset($_GET['id']) ? $_GET['id'] : ''), $options);
-                break;
-
-            case 'add_item':
-            case 'edit_item':
-                $content .= data_add_edit_form_process($_POST, $options);
-                break;
-        }
+function data_administration_page($options) {
+  
+  //Used to create links in the other functions.
+  $options['path'] = $_GET['path'];
+  
+  $content = '';
+  
+  if (isset($_REQUEST['action'])) {
+    
+    switch ($_REQUEST['action']) {
+      
+      case 'delete':
+        data_delete($options, $_GET['id']);
+        break;
+      
+      case 'edit_form':
+      case 'add_form':
+        $content .= data_add_edit_form((isset($_GET['id']) ? $_GET['id'] : ''), $options);
+        break;
+      
+      case 'add_item':
+      case 'edit_item':
+        $content .= data_add_edit_form_process($_POST, $options);
+        break;
     }
+  }
 
-    //If we didn't specify what we wanted to display, show the list of data.
-    if ($content == '') {
-        $content = data_list($options);
-    }
-
-    return $content;
+  //If we didn't specify what we wanted to display, show the list of data.
+  if ($content == '') {
+    $content = data_list($options);
+  }
+  
+  return $content;
 }
