@@ -161,7 +161,10 @@ function trails_block_save($delta = '', $edit = array()) {
 function trails_block_view($delta = '') {
     if (user_access('access trails blocks')) {
         $block = array();
+        $reverse_trail = array();
+        $trail = array();
         $type = $delta;
+        $item = array();
         // list($type, $id) = explode('-', $delta); // This line is in video, but not necessary if we only have one block.
         switch ($delta) { // This was changed from $type to $delta after video was created.
             case 'history':
@@ -179,9 +182,16 @@ function trails_block_view($delta = '') {
                 // Output the latest items as a list
                 $output = ''; // Initialize variable, this was added after the video was created.
                 for ($i = 0; $i < $num_items; $i++) {
+                    if($i <= count($reverse_trail)) {
+                        $item = $reverse_trail[$i];
+                        $output .= '<li>' . l($item['title'], $item['path']) . ' - ' . format_interval(REQUEST_TIME - $item['timestamp']) . ' ' . t('ago') . '</li>';
+
+                    }
+
+                    /*
                     if ($item = $reverse_trail[$i]) {
                         $output .= '<li>' . l($item['title'], $item['path']) . ' - ' . format_interval(REQUEST_TIME - $item['timestamp']) . ' ' . t('ago') . '</li>';
-                    }
+                    }*/
                 }
                 if (isset($output)) {
                     $output = '
